@@ -49,13 +49,12 @@ public static unsafe class UTF8Marshaller
 		if (str is null)
 			return nint.Zero;
 
+		// I preferred to allocate new memory instead of passing buffers around. Because of that, 'buffer' needs to be freed manually.
 		byte[] bytes = Encoding.UTF8.GetBytes(str);
 
-		// 'buffer' needs to be freed because it's heap-allocated.
 		var bufferSize = bytes.Length;
 		var buffer = Marshal.AllocHGlobal(bytes.Length);
 		
-		// I prefered allocate new memory instead of passing buffers around.
 		Marshal.Copy(bytes, 0, buffer, bufferSize);
 		return buffer;
 	}
