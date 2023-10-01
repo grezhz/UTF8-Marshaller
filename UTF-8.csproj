@@ -10,7 +10,7 @@
     <RootNamespace>UTF8</RootNamespace>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Title>UTF-8 Marshaller</Title>
-    <PackageId>grezhz.UTF8</PackageId>
+    <PackageId>grezhz.UTF8Marshaller</PackageId>
     <Authors>grezhz</Authors>
     <Company>grezhz</Company>
     <Product>UTF-8 Marshaller</Product>
@@ -18,7 +18,7 @@
     <RepositoryUrl>https://github.com/grezhz/UTF8-Marshaller</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>UTF8, UTF-8, strings, Strings, unicode. Unicode, Marshaling, marshalling, utf8, utf-8, managed, unmanaged, Managed, Unmanaged</PackageTags>
-    <Copyright>MIT Licence</Copyright>
+    <Copyright></Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
