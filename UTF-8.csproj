@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <RootNamespace>UTF8</RootNamespace>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Title>UTF-8 Marshaller</Title>
+    <PackageId>grezhz.UTF8</PackageId>
+    <Authors>grezhz</Authors>
+    <Company>grezhz</Company>
+    <Product>UTF-8 Marshaller</Product>
+    <Description>A C# utility class that allows convertion between managed and unmanaged UTF-8 strings.</Description>
+    <RepositoryUrl>https://github.com/grezhz/UTF8-Marshaller</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>UTF8, UTF-8, strings, Strings, unicode. Unicode, Marshaling, marshalling, utf8, utf-8, managed, unmanaged, Managed, Unmanaged</PackageTags>
+    <Copyright>MIT Licence</Copyright>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Text;
 
-namespace Prisma.Marshalling;
+namespace grezhz.UTF8;
 
 /// <summary>
 ///		 Collection of methods to allow convertion between managed and unmanaged UTF-8 strings.
@@ -26,7 +26,7 @@ public static unsafe class UTF8Marshaller
 		byte* b = (byte*)ptr;
 		int len = 0;
 		for (; b[len] != 0; len++) { } // cursed shit
-
+		
 		return Encoding.UTF8.GetString(b, len);
 	}
 
