@@ -12,15 +12,18 @@
     <Title>UTF-8 Marshaller</Title>
     <PackageId>grezhz.UTF8Marshaller</PackageId>
     <Authors>grezhz</Authors>
-    <Company>grezhz</Company>
     <Product>UTF-8 Marshaller</Product>
     <Description>A C# utility class that allows convertion between managed and unmanaged UTF-8 strings.</Description>
     <RepositoryUrl>https://github.com/grezhz/UTF8-Marshaller</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageTags>UTF8, UTF-8, strings, Strings, unicode. Unicode, Marshaling, marshalling, utf8, utf-8, managed, unmanaged, Managed, Unmanaged</PackageTags>
-    <Copyright></Copyright>
+    <PackageTags>UTF8, UTF-8, strings, Strings, unicode. Unicode, Marshalling, marshalling, utf8, utf-8, managed, unmanaged, Managed, Unmanaged</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <AssemblyName>grezhz.UTF8Marshaller</AssemblyName>
+    <Company />
+    <PackageReleaseNotes>Changed assembly name from "UTF8-Marshaller.dll" to "grezhz.Marshalling.dll"</PackageReleaseNotes>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
