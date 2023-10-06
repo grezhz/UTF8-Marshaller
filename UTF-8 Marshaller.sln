@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTF-8", "UTF-8.csproj", "{AB961267-1924-4CDA-94A2-A600A26079BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UTF-8 Marshaller", "UTF-8 Marshaller.csproj", "{AB961267-1924-4CDA-94A2-A600A26079BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

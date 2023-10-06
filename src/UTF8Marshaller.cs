@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using System.Text;
 
-namespace grezhz.UTF8;
+namespace grezhz.Marshalling;
 
 /// <summary>
 ///		 Collection of methods to allow convertion between managed and unmanaged UTF-8 strings.

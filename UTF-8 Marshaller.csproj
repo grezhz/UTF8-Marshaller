@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <RootNamespace>UTF8</RootNamespace>
+    <RootNamespace>grezhz.Marshalling</RootNamespace>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Title>UTF-8 Marshaller</Title>
     <PackageId>grezhz.UTF8Marshaller</PackageId>
@@ -20,6 +20,7 @@
     <PackageTags>UTF8, UTF-8, strings, Strings, unicode. Unicode, Marshaling, marshalling, utf8, utf-8, managed, unmanaged, Managed, Unmanaged</PackageTags>
     <Copyright></Copyright>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <AssemblyName>grezhz.UTF8Marshaller</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
